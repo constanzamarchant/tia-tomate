@@ -1,0 +1,48 @@
+.description{
+	margin:0 auto;
+	padding-top:35rem;
+	margin-top: 9rem;
+}
+
+.description__container{
+	text-align: center;
+	background-color: $taupe-gray;
+
+	img{
+		max-width:70%;
+		margin-top:6rem;
+		margin-bottom:2rem;
+	}
+}
+
+.description__title{
+	color: $white;
+	font-family: $raleway;
+	font-weight: $bold;
+}
+
+.description__text{
+	font-family: $raleway;
+	width:50%;
+	margin:0 auto;
+	color:$white;
+	padding-bottom: 5rem;
+}
+
+.description__title--gray{
+	@extend .description__title;
+	color:$granite-gray;
+}
+
+.description__text--gray{
+	@extend .description__text;
+	color:$granite-gray;
+}
+
+.nosotros{
+	background-color: $jelly-bean;
+}
+
+.trabajadores__img{
+	width: 30%;
+}

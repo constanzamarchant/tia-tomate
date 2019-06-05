@@ -1,0 +1,35 @@
+.main{
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.main__container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $jelly-bean;
+	padding-top: 18rem;
+	padding-bottom: 18rem;
+}
+
+.main__title{
+	color: $white;
+	text-align: center;
+}
+
+.main__title-emphasis {
+	font-family: $raleway;
+	font-weight: $bold;
+	color: $white;
+	line-height: 45px;
+}
+
+.main__title-emphasis_size-xl{
+	font-size: $x-large;
+}
+
+.main__title-emphasis_size-l{
+	font-size: $large;
+}
